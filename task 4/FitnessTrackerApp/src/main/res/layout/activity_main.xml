@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_main"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btn_set_goals"
+        style="@style/MainButtonStyle"
+        android:text="@string/btn_set_goals" />
+
+    <Button
+        android:id="@+id/btn_track_activity"
+        style="@style/MainButtonStyle"
+        android:text="@string/btn_track_activity" />
+
+    <Button
+        android:id="@+id/btn_view_progress"
+        style="@style/MainButtonStyle"
+        android:text="@string/btn_view_progress" />
+
+</LinearLayout>

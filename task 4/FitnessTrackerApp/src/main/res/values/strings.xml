@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fitness Tracker</string>
+    <string name="title_activity_main">Fitness Tracker</string>
+    <string name="title_activity_goal">Set Goals</string>
+    <string name="title_activity_progress">Progress</string>
+    
+    <!-- Main Activity Strings -->
+    <string name="btn_set_goals">Set Custom Goals</string>
+    <string name="btn_track_activity">Track Activity</string>
+    <string name="btn_view_progress">View Progress</string>
+    
+    <!-- Goal Activity Strings -->
+    <string name="hint_goal_value">Enter target value</string>
+    <string name="btn_save_goal">Save Goal</string>
+    <string name="spinner_goal_type_prompt">Select goal type</string>
+    
+    <!-- Progress Activity Strings -->
+    <string name="text_current_steps">Current Steps:</string>
+    <string name="text_calories_burned">Calories Burned:</string>
+    <string name="text_goal_progress">Goal Progress:</string>
+    
+    <!-- Goal Types -->
+    <string-array name="goal_types">
+        <item>Steps</item>
+        <item>Distance (km)</item>
+        <item>Calories</item>
+        <item>Active Minutes</item>
+    </string-array>
+</resources>
